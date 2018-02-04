@@ -3,8 +3,7 @@
 ---
 > Here are some FAQs about Github!
 
-
-1. **When should you use Git for a project?**
+**When should you use Git for a project?**
 
 Github is a **version control system**. This has a number of awesome benefits for your project!
 
@@ -16,7 +15,7 @@ Github is great for solo workers and big teams- both will benefit from the track
 
 ---
 
-2. **What kind of files/info should be saved in a Git repository? What types of files/info should not be included in a Git repo?**
+**What kind of files/info should be saved in a Git repository? What types of files/info should not be included in a Git repo?**
 
 Github is great for:
 
@@ -28,7 +27,7 @@ However, Github cannot store large files, such as a huge dataset. Also, don’t 
 
 ---
 
-3. **What are the commands to undo a commit?**
+**What are the commands to undo a commit?**
 
 To go back to a previous version of a file, you can use `git checkout` 
 This restores the previous version of the file.
@@ -40,7 +39,7 @@ However, this will make a new commit to undo your old one. It will not be the sa
 
 ---
 
-4. **One of your repositories is in a “detached HEAD” state. How do you fix this?**
+ **One of your repositories is in a “detached HEAD” state. How do you fix this?**
 
 A **detached headspace** can happen if you hit the command `checkout` without specifying where to go. You must re-attach your head before making any more changes.
 To do this you can simply type:
@@ -49,7 +48,7 @@ To do this you can simply type:
 
 ---
 
-5. **Your boss has no idea what Git is or why you are using it. Explain the pros / cons of using Git for your research project. Explain the pros / cons of hosting your project in a public (or private) repository on Github/Bitbucket/Gitlab/etc.**
+**Your boss has no idea what Git is or why you are using it. Explain the pros / cons of using Git for your research project. Explain the pros / cons of hosting your project in a public (or private) repository on Github/Bitbucket/Gitlab/etc.**
 
 *Pros* 
 
