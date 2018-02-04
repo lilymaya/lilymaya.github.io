@@ -30,6 +30,14 @@ However, Github cannot store large files, such as a huge dataset. Also, don’t 
 
 3. **What are the commands to undo a commit?**
 
+To go back to a previous version of a file, you can use `git checkout` 
+This restores the previous version of the file.
+You can simply type `git checkout HEAD~1 [yourfile]` to go back one step.
+Alternatively, you can enter a specific version of a file (perhaps a few steps back) to revert back, for example: `git checkout [myoldversion]`
+
+Alternatively, you can use `git revert [IDofyourincorrectcommit]`
+However, this will make a new commit to undo your old one. It will not be the same as deleting your old commit.
+
 ---
 
 4. **One of your repositories is in a “detached HEAD” state. How do you fix this?**
