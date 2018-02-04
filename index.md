@@ -42,9 +42,33 @@ However, this will make a new commit to undo your old one. It will not be the sa
 
 4. **One of your repositories is in a “detached HEAD” state. How do you fix this?**
 
+A **detached headspace** can happen if you hit the command `checkout` without specifying where to go. You must re-attach your head before making any more changes.
+To do this you can simply type:
+`git checkout master`
+
+
 ---
 
 5. **Your boss has no idea what Git is or why you are using it. Explain the pros / cons of using Git for your research project. Explain the pros / cons of hosting your project in a public (or private) repository on Github/Bitbucket/Gitlab/etc.**
+
+*Pros* 
+
++ Easy collaboration- the ability to merge files with ease, and track everyone’s changes
+
++ Back up of previous files- and easy restoration if mistakes are made!
+
++ Nice and accessible to anyone working on the project- simply share the link!
+
++ Long term storage- if a project is re-opened years later, it’s all there!
+
++ Github can be free if you use public mode
+
+*Cons*
+
++ If your repository is public, anyone may access it and you may have issues if you are working on confidential work
+
++ You cannot store huge data files on Git, so this still needs to be done elsewhere
+
 
 ---
 
